@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HeyWatch.cs">
+    <Files>
+      <File FileName="HeyWatch.cs" Line="292" Column="33" />
+      <File FileName="Models.cs" Line="96" Column="19" />
+      <File FileName="Exceptions.cs" Line="11" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <AuthorInfo Name="Bruno Celeste" Email="bruno.celeste@gmail.com" Copyright="Bruno Celeste" />
+</Properties>

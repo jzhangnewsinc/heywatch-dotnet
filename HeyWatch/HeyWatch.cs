@@ -311,9 +311,10 @@ namespace HeyWatch
 		/// FormatData.Add("video_bitrate", "1280");
 		/// HeyWatch.FormatUpdate(9872, FormatData);
 		/// </example>
-		public HeyWatchFormat FormatUpdate (int Id, Dictionary<string, string> Data)
+		public bool FormatUpdate (int Id, Dictionary<string, string> Data)
 		{
-			return Json.Deserialize<HeyWatchFormat>(Request("format/" + Id, Method.PUT, Data));
+			Request("format/" + Id, Method.PUT, Data);
+			return true;
 		}
 		
 		/// <summary>

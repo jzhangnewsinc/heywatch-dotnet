@@ -13,7 +13,7 @@ namespace HeyWatch
 		public string Url { get; set; }
 		public Dictionary<string, string> Progress { get; set; }
 		public int Id { get; set; }
-		public int Error_Code { get; set; }
+		public int? Error_Code { get; set; }
 		public int Length { get; set; }
 		public string Status { get; set; }
 	}
@@ -65,7 +65,7 @@ namespace HeyWatch
 		public int Format_Id { get; set; }
 		public string S3_Directive { get; set; }
 		public string Ping_Url_If_Error { get; set; }
-		public int Error_Code { get; set; }
+		public int? Error_Code { get; set; }
 		public Dictionary<string, string> Encoding_Options { get; set; }
 		public int Encoded_Video_Id { get; set; }
 		public string Ftp_Directive { get; set; }
